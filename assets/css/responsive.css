@@ -1,0 +1,487 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .testimonial_slider .owl-nav {
+        max-width: 130px;
+        bottom: -80px;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .FAQ-accordion .accordion-button {
+        font-size: 17px;
+    }
+    .hero-Area {
+        height: 580px;
+    }
+    .blog-btm .repair_Blog_content {
+        padding-left: 50px;
+    }
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .testimonial_slider .owl-nav {
+        max-width: 130px;
+        bottom: -80px;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .FAQ-accordion .accordion-button {
+        font-size: 14px;
+    }
+    .hero-Area {
+        height: 580px;
+    }
+    .header_info ul li {
+        margin-left: 40px;
+    }
+    
+    .menu-area nav ul li a {
+        margin-left: 40px;
+    }
+    
+    .service_blk h3 {
+        font-size: 22px;
+    }
+    
+    .service_blk ul li {
+        font-size: 14px;
+    }
+
+.repair_Blog-Area .service_blk ul li {
+    max-width: 300px;
+}
+    
+    .service_blk a {
+        font-size: 15px;
+        padding: 11px 22px;
+    }
+    
+    section.blog-Area .sec_title h1 {
+        font-size: 42px;
+    }
+    
+    .blog_content p {
+        font-size: 16px;
+    }
+    .blog_content h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .t_user_name h1 {
+        font-size: 30px;
+    }
+    
+    .t_user_name h1 span {
+        font-size: 13px;
+    }
+    
+    .t_user > i {
+        width: 60px;
+        height: 60px;
+        margin: 20px 10px;
+    }
+    
+    .t_user_name ul li i {
+        font-size: 13px;
+    }
+    
+    .testimonial_blk p {
+        font-size: 15px;
+    }
+    .contact_text h1 {
+        font-size: 50px;
+    }
+    
+    .footer_link ul li a {
+        font-size: 16px;
+    }
+    
+    .footer_link h1 {
+        font-size: 28px;
+    }
+    .blog-btm .repair_Blog_content {
+        padding-left: 50px;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .testimonial_slider .owl-nav {
+        max-width: 130px;
+        bottom: -80px;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .FAQ-accordion .accordion-button {
+        font-size: 17px;
+    }
+    .hero-Area {
+        height: 450px;
+        background-position: center;
+    }
+
+.hero_comtent h1 {
+    font-size: 44px;
+}
+    .header_info ul li {
+        margin-left: 22px;
+    }
+    .service_select .nice-select span {
+        font-size: 18px;
+    }
+    
+    .service_select {
+        width: 38%;
+    }
+    
+    .service_select .nice-select.wide {
+        padding-left: 23px;
+    }
+    
+    .service_select .nice-select:after {
+        right: 20px;
+        border-width: 10px;
+        border-right: 18px solid #9990;
+    }
+    
+    .service_filter a.thm_btn {
+        padding: 11px 25px;
+        font-size: 14px;
+    }
+    
+    .service_blk {margin: 20px auto;}
+    
+    .service_wrp {
+        padding-bottom: 20px;
+    }
+    
+    .blog_content {
+        margin-top: 30px;
+    }
+    
+    .blog-btm {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    
+    .blog-btm .blog_content {
+        width: 100%;
+        padding: 0;
+        max-width: 390px;
+    }
+    
+    .blog-btm .blog_content p {
+        font-size: 16px;
+    }
+    .t_user_name h1 {
+        font-size: 30px;
+    }
+    
+    .t_user_name h1 span {
+        font-size: 13px;
+    }
+    
+    .t_user > i {
+        width: 60px;
+        height: 60px;
+        margin: 20px 10px;
+    }
+    
+    .t_user_name ul li i {
+        font-size: 13px;
+    }
+    
+    .testimonial_blk p {
+        font-size: 15px;
+        margin-right: 20px;
+        max-width: 290px;
+    }
+    .footer_link {margin: 35px 0;margin-left: 20px;}
+
+.contact_text h1 {
+    font-size: 45px;
+}
+
+.contact_text {
+    margin-left: 40px;
+}
+
+.contact_img img {
+    height: 400px;
+    object-fit: scale-down;
+}
+.product_blk {
+    padding: 25px;
+}
+
+.product_blk ul li p {
+    font-size: 15px;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .testimonial_slider .owl-nav {
+        max-width: 130px;
+        bottom: -80px;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .FAQ-accordion .accordion-button {
+        font-size: 16px;
+    }
+    .hero-Area {
+        height: 440px;
+        background-position: center;
+    }
+    .t_user_name h1 {
+        font-size: 30px;
+    }
+    
+    .t_user_name h1 span {
+        font-size: 13px;
+    }
+    
+    .t_user > i {
+        width: 60px;
+        height: 60px;
+        margin: 20px 10px;
+    }
+    
+    .t_user_name ul li i {
+        font-size: 13px;
+    }
+    
+    .testimonial_blk p {
+        font-size: 16px;
+        margin-right: 20px;
+        max-width: 260px;
+    }
+    .contact_text h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .contact_img img {
+        height: 269px;
+        object-fit: cover;
+    }
+    
+    .contact_text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+.thm_btn.active {
+    padding: 10px 30px;
+}
+    .header_top {
+        display: none;
+    }
+    
+    .logo-area img {
+        max-width: 55px;
+    }
+    
+    .hero_comtent h1 {
+        font-size: 36px;
+    }
+    
+    .sec_title h1 {
+        font-size: 32px;
+    }
+    
+    .service_select {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .service_filter {
+        flex-direction: column;
+    }
+    
+    .service_select .nice-select span {
+        font-size: 18px;
+    }
+    
+    .service_blk h3 {
+        font-size: 22px;
+    }
+    
+    .service_blk ul {
+        margin-top: 12px;
+    }
+
+.blog-btm .repair_Blog_content a {
+    font-size: 14px;
+}
+
+.repair_Blog-Area .service_blk ul li {
+    max-width: 250px;
+    font-size: 15px;
+}
+    
+    .service_blk {
+        margin-bottom: 0;
+    }
+    
+    .service_wrp {
+        padding-bottom: 50px;
+    }
+    
+    .service-Area {
+        margin-bottom: 240px;
+    }
+    
+    .blog_content h1 {
+        font-size: 32px;
+    }
+    
+    .blog_wrp .blog_content {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .blog_content p {
+        font-size: 16px;
+    }
+    
+    .blog-btm {
+        flex-direction: column;
+        width: 95%;
+        margin-inline: auto;
+        max-width: 430px;
+    }
+    
+    .blog-btm .blog_img {
+        width: 100%;
+    }
+    
+    .blog-btm .blog_img img {
+        max-height: 300px;
+    }
+    
+    .blog-btm .blog_content {
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .blog_content h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+.repair_Blog-Area .blog_content h1 {
+    font-size: 36px;
+}
+    
+    .blog-btm .blog_content p {
+        font-size: 15px;
+    }
+    .testimonial-Area {
+        margin-top: 50px;
+    }
+    
+    .testimonial_slider {
+        margin-top: 20px;
+    }
+    
+    .FAQ-Area {
+        padding: 50px 0;
+    }
+    
+    .contact_wrp {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        max-width: 355px;
+        margin-inline: auto;
+    }
+    
+    .contact-cont {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .contact_img {
+        width: 100%;
+    }
+    
+    .footer_link h1 {
+        font-size: 28px;
+    }
+    
+    .footer_link ul li a {
+        font-size: 16px;
+    }
+    
+    .footer_link {
+        margin-left: 40px;
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+    
+    .footer_btm {
+        margin-top: 50px;
+    }
+    
+    .footer_btm p {
+        font-size: 14px;
+        padding: 20px;
+    }
+    .product_blk i img {
+        width: 100px;
+    }
+    
+    .product_blk i {
+        width: 150px;
+        height: 150px;
+        margin-top: -113px;
+    }
+    
+    .product_blk {
+        padding: 30px;
+        max-width: 300px;
+        margin-inline: auto;
+        margin: 50px auto;
+    }
+    
+    .product_blk h2 {
+        font-size: 28px;
+    }
+    
+    .product_blk ul li p {
+        font-size: 14px;
+    }
+    .Item_blk i img {
+        max-width: 130px;
+    }
+    
+    .Item_blk h2 {
+        font-size: 30px;
+    }
+    
+    .Item_blk p {
+        font-size: 16px;
+    }
+    
+    .Item_blk a {
+        font-size: 16px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
